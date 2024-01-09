@@ -1,0 +1,94 @@
+.hero {
+    margin-top: 100px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.hero__heading {
+    color: #3D3D3F;
+    font-family: "Rubik";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 515px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 42px;
+}
+
+.hero__text {
+    color: #3D3D3F;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 520px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.hero__img {
+    max-width: 626px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero__btn {
+    display: inline-block;
+}
+
+@media only screen and (max-width:1017px) {
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero__info {
+        order: 2;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .hero__img {
+        order: -2;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .hero__img {
+        max-width: 490px;
+        width: 100%;
+    }
+
+    .hero__heading {
+        font-size: 56px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hero {
+        margin-top: 40px;
+    }
+
+    .hero__heading {
+        font-size: 45px;
+    }
+
+    .hero__img {
+        max-width: 320px;
+        width: 100%;
+    }
+
+}

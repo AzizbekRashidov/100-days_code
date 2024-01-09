@@ -1,0 +1,84 @@
+.banner_nav.nav_ru{
+    max-width: 1380px;
+}
+.banner_nav.nav_kr{
+    max-width: 1380px;
+}
+.banner_nav.nav_en{
+    max-width: 1180px;
+}
+.banner_nav.nav_uz{
+    max-width: 1280px;
+}
+.inner path#Icon_awesome-eye{
+    fill: #2B385D;
+}
+.second_nav.nav_ru .second_nav-logo--icon{
+    margin-right: 8px;
+}
+.second_nav.nav_kr .second_nav-logo--icon{
+    margin-right: 8px;
+}
+.second_nav.nav_ru .second_nav-logo--icon svg{
+    max-width: 50px;
+}
+.second_nav.nav_kr .second_nav-logo--icon svg{
+    max-width: 50px;
+}
+.second_nav.nav_ru .second_nav-logo--name svg{
+    max-width: 150px;
+}
+.second_nav.nav_kr .second_nav-logo--name svg{
+    max-width: 150px;
+}
+.second_nav.nav_ru .nav-link{
+    padding: .5rem 0.7rem;
+}
+.second_nav.nav_kr .nav-link{
+    padding: .5rem 0.7rem;
+}
+.second_nav.nav_en .nav-link{
+    padding: .5rem 1.4rem;
+}
+.second_nav.nav_uz .nav-link{
+    padding: .5rem 1rem;
+}
+.other-pages .icon_accessibility img{
+    filter: brightness(0.01);
+}
+.second_nav.nav_ru .nav-link.icon_accessibility,
+.second_nav.nav_uz .nav-link.icon_accessibility,
+.second_nav.nav_en .nav-link.icon_accessibility,
+.second_nav.nav_kr .nav-link.icon_accessibility{
+    padding: 0;
+}
+.video video {
+    object-fit: cover;
+    width     : 100vw;
+    height    : 100%;
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+}
+.video:before {
+    content         : "";
+    background-color: rgba(0, 0, 0, 0.55);
+    position        : absolute;
+    width           : 100%;
+    height          : 100%;
+    left            : 0;
+    right           : 0;
+    bottom          : 0;
+    top             : 0;
+    z-index         : 2;
+    transition      : all 0.5s linear;
+}
+.banner_content {
+    position  : relative;
+    z-index   : 5;
+    background: transparent;
+}
+.header_mobile-btn,
+.header_lang-btn, .header-left-line, .header-right-line {
+    z-index: 6;
+}

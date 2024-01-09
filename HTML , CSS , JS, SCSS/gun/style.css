@@ -1,0 +1,38 @@
+.header__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: -200px;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__link{
+    color: dimgrey;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.header__link:hover{
+    color: black;
+    text-decoration: overline;
+    line-height: 20px 20px;
+}

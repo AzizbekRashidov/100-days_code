@@ -1,0 +1,13 @@
+.hero .container{
+    background-image: url(../../img/dogbg.png);
+    width: 1440px;
+    height: 529px;
+}
+@media only screen and (max-width:768px) {
+    .hero .container{
+        background-image: url(../../img/dogbg.png);
+        width: 767px;
+        height: 250px;
+        background-size: cover;
+    }
+}

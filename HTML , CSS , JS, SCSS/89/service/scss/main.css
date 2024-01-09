@@ -1,0 +1,157 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.nav__link {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__span {
+  margin-left: 100px;
+}
+
+.header__info {
+  margin-left: 50px;
+}
+
+.container {
+  width: 1440px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__h1 {
+  color: #333;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 91.429% */
+}
+
+.hero__text {
+  width: 447px;
+  color: #949494;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.hero {
+  transform: translate(20px, 100px);
+}
+
+.hero__img {
+  transform: translate(0px, -100px);
+}
+
+.about .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about__ul {
+  box-shadow: 0px 2px 30px 2px rgba(34, 60, 80, 0.2);
+}
+
+.about__list {
+  width: 305.054px;
+  height: 421.301px;
+}
+
+.about__item {
+  transform: translate(20px, 50px);
+}
+
+.about__btn {
+  width: 156px;
+  height: 50px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #000;
+  transition: all 0.7s ease;
+}
+.about__btn:hover {
+  background-color: #FFBD54;
+}
+
+.about__btn1 {
+  background-color: #78C0DE;
+}
+.about__btn1:hover {
+  background-color: #FFBD54;
+}
+
+.about__btn2 {
+  background-color: #FFBD54;
+}
+.about__btn2:hover {
+  background-color: #78C0DE;
+}
+
+.about__text {
+  width: 229px;
+  color: #949494;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.footer {
+  margin-top: 100px;
+  background: linear-gradient(0deg, #EBEBEB, #EBEBEB), linear-gradient(0deg, #F3F3F3, #F3F3F3);
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  color: #333;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__item {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+}
+
+.footer__lists {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=main.css.map */

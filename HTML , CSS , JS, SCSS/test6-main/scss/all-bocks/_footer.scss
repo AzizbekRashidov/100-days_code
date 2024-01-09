@@ -1,0 +1,22 @@
+.footer{
+    background-color: #2C343E;
+}
+
+.footer__link{
+    color: #83888F;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: "Barlow"
+}
+
+.footer__link:hover{
+    color: #FEFCF7;
+    text-decoration: overline;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}

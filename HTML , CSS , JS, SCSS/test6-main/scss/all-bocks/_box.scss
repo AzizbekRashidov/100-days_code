@@ -1,0 +1,22 @@
+.box__list{
+    display: flex;
+    list-style: none;
+    margin-top: 80px;
+
+    .box__text{
+        width: 540px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+    }
+
+    .box__item:nth-child(2){
+        margin-left: 60px;
+    }
+
+    .box__heading2{
+        color: #333D4B;
+        font-family: "Fraunces 9pt";
+        font-size: 40px;
+    }
+}

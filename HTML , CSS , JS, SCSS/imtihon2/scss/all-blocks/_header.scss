@@ -1,0 +1,238 @@
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar__btn {
+    border-radius: 8px;
+    background: var(--Button-Gradient, linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%));
+    display: flex;
+    width: 149px;
+    height: 46px;
+    padding: 11px 19px 11px 18px;
+    justify-content: center;
+    align-items: center;
+    color: var(--Background-White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__btn__img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.navbar__input {
+    width: 320px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Stroke-Primary, #E4E7EE);
+    background: var(--Background-White, #FFF);
+    color: var(--Text-secondary, #6C757D);
+    padding: 0px 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.navbar__search {
+    display: flex;
+    width: 60px;
+    height: 46px;
+    padding: 11px 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+    background: var(--Background-Main-color, #0D63F3);
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__li1 {
+    display: flex;
+}
+
+.navbar__like {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    padding: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: var(--Background-Secondary, #ECF4FF);
+    cursor: pointer;
+}
+
+.navbar__korzika {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    padding: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Background-Secondary, #ECF4FF);
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__kirish {
+    display: flex;
+    width: 105px;
+    padding: 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Button-gradient-20, linear-gradient(270deg, rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%));
+    color: var(--Text-Main, #101828);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar__item {
+    display: flex;
+}
+
+.cound {
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.header__button {
+    display: none;
+}
+
+.nav__btn {
+    display: flex;
+    width: 260px;
+    padding: 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%);
+    border: none;
+    color: #101828;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+}
+
+.navbar__hr {
+    width: 260px;
+    height: 1px;
+    background: #E4E7EE;
+}
+
+.navbar__heading {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: normal;
+}
+
+.navbar__button {
+    border: none;
+    background-color: transparent;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.nav__exit {
+    border: none;
+    background-color: transparent;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.navbar__item1 {
+    display: none;
+}
+
+.carol {
+    display: none;
+}
+
+@media only screen and (max-width: 480px){
+    .navbar__li {
+        display: none;
+    }
+
+    .header .container {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+    }
+
+    .header__logo {
+        margin-left: 140px;
+    }
+
+    .header__button {
+        background: transparent;
+        border: none;
+        width: 21.6px;
+        height: 21.6px;
+        display: block;
+    }
+
+    .headerone {
+        display: none;
+    }
+
+    .HeartLi {
+        display: block;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .carol {
+        display: block;
+    }
+
+    .navbar__input {
+        width: 250px;
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,100 @@
+.box .container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    border-radius: 5px;
+    background: #78C0DE;
+    width: 1440px;
+    height: 498px;
+}
+
+.box__input{
+    width: 335px;
+    height: 50px;
+    color: #949494;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.box__input2{
+    width: 335px;
+    height: 165px;
+    margin-bottom: 26px;
+
+    &::placeholder{
+        transform: translate(0px , -55px);
+    }
+}
+
+.box__img{
+    transform: translate(0px , -64.9px);
+}
+
+.box__btn{
+    width: 226px;
+    height: 50px;
+    background: #000;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box__form{
+    transform: translate( 160px , 55px);
+}
+
+.box__h2{
+    width: 276px;
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.box__text{
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 115.385% */
+}
+.img {
+    background-image: url(/img/dogs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 498px;
+}
+.box__list1{
+    transform: translate(80px , 0px);
+}
+
+.box{
+    margin-top: 174px;
+    margin-bottom: 187px;
+}
+@media only screen and (max-width:768px) {
+    .box .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 5px;
+        background: #78C0DE;
+        width: 767px;
+        height: 498px;
+    }
+    .box__form {
+        transform: translate(-312px, 55px);
+    }
+    .img {
+        background-image: url(/img/dogs.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

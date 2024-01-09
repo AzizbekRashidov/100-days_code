@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.h1{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.input{
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    background-color: aqua;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: greenyellow;
+}

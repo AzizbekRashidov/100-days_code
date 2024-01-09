@@ -1,0 +1,25 @@
+.container{
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    background-color: #2a2a5533;
+    color: black;
+    border-radius: 12px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.text{
+    width: 350px;
+    font-size: 20px;
+    letter-spacing: 0.923px;
+    padding-top: 27px;
+}
+
+.spans{
+    margin: 0;
+    margin-left: -5px;
+}

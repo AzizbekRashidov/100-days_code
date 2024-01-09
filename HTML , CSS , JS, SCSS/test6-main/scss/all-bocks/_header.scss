@@ -1,0 +1,109 @@
+.header {
+    margin-top: 10px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item+.nav__item {
+    padding-left: 33px;
+}
+
+.nav__link {
+    color:grey;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.7s ease;
+
+    &:hover{
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+
+
+.btn__menu {
+    display: none;
+}
+
+.btn__exit {
+    display: none;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
+.header__mobil {
+    display: none;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  /* Retina-specific stuff here */
+}   
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .btn:focus {
+
+        .btn__menu {
+            display: none;
+        }
+
+        .btn__exit {
+            display: block;
+        }
+    }
+
+    .header{
+        width: 50%;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__mobil {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    
+}
